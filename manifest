@@ -1,0 +1,34 @@
+
+title=VivoPlay Pro        
+major_version=1           
+minor_version=0            
+build_version=001          
+supports_input_launch=1    
+
+# Metadatos
+subtitle=Tu IPTV Premium  
+mm_icon_focus_hd=pkg:/images/logo.png
+splash_screen_hd=pkg:/images/splash.jpg   
+description=Aplicación de streaming IPTV con soporte para listas M3U/M3U8
+
+# Configuración Técnica
+ui_resolutions=hd,fhd
+requires_foreground_processing=true     
+bs_libs=roku_ads_lib      
+enable_https=1            
+uses_network=1            
+uses_video=1              
+font_families=OpenSans-Regular
+
+# Codecs y Formatos
+video_codecs=h264,h265,av1
+audio_codecs=aac,ac3,eac3  
+supports_5_1=1             # Soporte para audio 5.1
+supports_7_1=1 
+
+# Permisos Específicos
+access_web=1               
+access_ads=0               
+access_contacts=0          
+access_internet=1         
+access_registry=1          
